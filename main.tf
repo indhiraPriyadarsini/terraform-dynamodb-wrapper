@@ -1,5 +1,3 @@
-
-
 module "dynamodb_table" {
   source                                = "terraform-aws-modules/dynamodb-table/aws"
   create_table                          = var.create_table
