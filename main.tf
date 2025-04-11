@@ -13,7 +13,7 @@ module "dynamodb_table" {
   point_in_time_recovery_enabled        = var.point_in_time_recovery_enabled
   ttl_enabled                           = var.ttl_enabled
   ttl_attribute_name                    = var.ttl_attribute_name
-  global_secondary_index                = var.global_secondary_index
+  global_secondary_indexes                = var.global_secondary_indexes
   local_secondary_indexes               = var.local_secondary_indexes
   replica_regions                       = var.replica_regions
   stream_enabled                        = var.stream_enabled
